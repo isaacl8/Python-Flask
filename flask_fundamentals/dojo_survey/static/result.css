@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    margin: auto;
+
+}
+.form{
+    padding: 10px;
+    text-align: left;
+
+}
+  ul {
+    list-style-type: none;
+}
+#button{
+    text-align: right;
+}

@@ -1,0 +1,39 @@
+h3 {
+    color: blue;
+}
+
+#Wrapper {
+
+    height: 1000px;
+    width: 1000px;
+
+}
+
+#gold {
+
+    text-align: center;
+}
+
+#collection{
+    
+    margin: 0px auto;
+}
+.box{
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 0px auto;
+    height: 200px;
+    width: 220px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+#acitivites{
+    border: 2px solid black;
+    width: 1000px;
+    margin-top: 30px;
+    height: 200px;
+    overflow: scroll;
+
+}

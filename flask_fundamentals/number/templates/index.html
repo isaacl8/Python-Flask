@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/master.css">
+</head>
+
+<body>
+    <h1>Welcome to the Great Number Game!</h1>
+    <p>I am thinking of a number between 1 and 100</p>
+    <p>Take a guess</p>
+
+    <form action='/guess' method="post">
+        <input type="text" name="num">
+        <p>{{session['text']}}</p>
+        <input type="submit" name="submit" value="submit">
+    </form>
+    <form action="/reset" method="post">
+        <input type="submit" name="reset" value="Reset Game">
+
+    </form>
+</body>
+
+</html>
